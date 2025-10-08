@@ -3,17 +3,18 @@
 # Project Summary 
 
 - Fruit & Veg Prices in the UK (2017-2022)
-
+- The UK's Horticulture sector saw it's home-produced vegetables value grow from approx £1.5 Billion in 2017 to £1.8 Billion in 2022 and it's fruits produce from £920 Million in 2021 to £1,046 Billion in 2022. 
 
 # Dataset Content
 
-- Total entries: 9,647
+- Data is source from Kaggle https://www.kaggle.com/datasets/datota/fruit-and-vegatable-prices-in-uk-2017-2022
+
+- Total entries: 9,647 rows and 6 columns
 
 - Timeframe: 2017–2022
 
-- Categories: Fruit, Vegetables, Flowers, Pot Plants
+- Dataset includes information about fruit and veg, what type and pricing over a 5 year period
 
-- Units used: kg, head, unit, stem, twin
 
 |           | category           | item        | variety          | date         | price      | unit | 
 |-----------|--------------------|-------------|------------------|--------------|------------|------|
@@ -34,9 +35,9 @@
 
 # Buisness Requirements
 
-- The UK's Horticulture sector saw it's home-produced vegetables value grow from approx £1.5 Billion in 2017 to £1.8 Billion in 2022 and it's fruits produce from £920 Million in 2021 to £1,046 Billion in 2022. A fictional international business conglomerate has an interest in the fresh produce sector in the food industry business in the UK. The client has requested that a data analyst analyse the dataset of fruits and vegetable prices and determine:
+- A fictional international business conglomerate has an interest in the fresh produce sector in the food industry business in the UK. The client has requested that a data analyst analyse the dataset of fruits and vegetable prices and determine:
 
-1. Identify the optimal season to procure and sell fresh produce.
+1. To identify the optimal season to procure and sell fresh produce.
 
 2. Monitor price volatility to inform purchasing and inventory decisions.
 
