@@ -15,18 +15,19 @@
 
 - Units used: kg, head, unit, stem, twin
 
-|   category      |  item       |  variety         |  date    | price  | unit
-0           fruit |      apples |bramleys_seedling |2022-03-11|  2.05  |  kg
-1           fruit |      apples |coxs_orange_group |2022-03-11|  1.22  |  kg
-2           fruit |      apples |  egremont_russet |2022-03-11|  1.14  |  kg
-3           fruit |      apples |         braeburn |2022-03-11|  1.05  |  kg
-4           fruit |      apples |             gala |2022-03-11|  1.03  |  kg
-...           ... |         ... |              ... |       ...|   ...  | ...
-9642  cut_flowers | alstromeria |           indoor |2017-11-03|  0.27  | stem
-9643  cut_flowers |chrysanthemum|     indoor_spray |2017-11-03|  0.22  | stem
-9644  cut_flowers |      lillies|         oriental |2017-11-03|  0.70  | stem
-9645  cut_flowers |    narcissus|           indoor |2017-11-03|  0.06  | stem
-9646   pot_plants |     cyclamen|            13_cm |2017-11-03|  0.75  | unit
+| category           | item            | variety      | date              | price           | unit
+|--------------------------------------------------------------------------------------------------
+0           fruit    |      apples |bramleys_seedling |2022-03-11         |  2.05           |  kg
+1           fruit    |      apples |coxs_orange_group |2022-03-11         |  1.22           |  kg
+2           fruit    |      apples |  egremont_russet |2022-03-11         |  1.14           |  kg
+3           fruit    |      apples |         braeburn |2022-03-11         |  1.05           |  kg
+4           fruit    |      apples |             gala |2022-03-11         |  1.03           |  kg
+...           ...    |         ... |              ... |       ...         |   ...           | ...
+9642  cut_flowers    | alstromeria |           indoor |2017-11-03         |  0.27           | stem
+9643  cut_flowers    |chrysanthemum|     indoor_spray |2017-11-03         |  0.22           | stem
+9644  cut_flowers    |      lillies|         oriental |2017-11-03         |  0.70           | stem
+9645  cut_flowers    |    narcissus|           indoor |2017-11-03         |  0.06           | stem
+9646   pot_plants    |     cyclamen|            13_cm |2017-11-03         |  0.75           | unit
 
 [9647 rows x 6 columns]
 
