@@ -58,6 +58,7 @@
     - Some varieties of the same fruit and veg are cheaper than it's other variants
     - Validation: Group by variety and compare mean and std pricing. 
 
+
 # Summary on my findings with the Hypotheses and Business Requirements
 
 - Apples offer stable year-round supply, with premium opportunities in unique or heritage varieties. Variety segmentation is useful for pricing strategy — e.g., marketing higher-margin varieties differently from commodity ones.
