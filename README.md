@@ -58,6 +58,14 @@
     - Some varieties of the same fruit and veg are cheaper than it's other variants
     - Validation: Group by variety and compare mean and std pricing. 
 
+# Summary on my findings with the Hypotheses and Business Requirements
+
+- Apples offer stable year-round supply, with premium opportunities in unique or heritage varieties. Variety segmentation is useful for pricing strategy — e.g., marketing higher-margin varieties differently from commodity ones.
+
+- Cabbages provide price stability, ideal for budgeting in food service or wholesale. Price competition is strong — differentiation must come from freshness, local sourcing, or packaging, not price alone.
+
+- The price of strawberries shows a clear seasonal trend. On-season prices (May–Aug) are concentrated and lower, reflecting ample supply. Off-season (Jan–Mar, Oct–Dec) prices rise and become more variable, due to scarcity. Shoulder-season prices are the most unpredictable, sometimes spiking higher than any other season. This highlights the importance of seasonal planning in procurement and pricing strategies."
+
 
 ## How to use this repo
 
