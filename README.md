@@ -68,6 +68,37 @@
 - The price of strawberries shows a clear seasonal trend. On-season prices (May–Aug) are concentrated and lower, reflecting ample supply. Off-season (Jan–Mar, Oct–Dec) prices rise and become more variable, due to scarcity. Shoulder-season prices are the most unpredictable, sometimes spiking higher than any other season. This highlights the importance of seasonal planning in procurement and pricing strategies."
 
 
+# Project Plan
+
+
+# The rationale to map the business requirements to the Data Visualisations
+
+
+# Analysis techniques used
+
+
+# Ethical considerations
+
+
+# Unfixed Bugs
+
+
+# Development Roadmap
+
+
+# Main Data Analysis Libraries
+
+
+# Credits
+
+
+# Content
+
+
+# Media
+
+
+# Acknowledgements (optional)
 ## How to use this repo
 
 1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
