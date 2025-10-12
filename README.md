@@ -87,6 +87,9 @@
 
 # The rationale to map the business requirements to the Data Visualisations
 
+- The business requirement is to understand and predict fruit and vegetable price trends in the UK. This includes identifying seasonal impacts, price anomalies, and helping stakeholders make better planning and pricing decisions.
+- To meet these goals, a range of data visualisations were used. Each was chosen to support a business question or insight.
+
 
 # Analysis techniques used
 
@@ -112,13 +115,33 @@
 
 # Ethical considerations
 
-- No ethical issues the dataset was sourced from Kaggle and is avaliable to the public and can be used for Educational or training purposes.  
+- No ethical issues, the dataset was sourced from Kaggle and is avaliable to the public and can be used for Educational or training purposes.  
 
 
 # Unfixed Bugs
 
+- Encounter no Unfixed bug issues or technical problems during the projects timeline.
+
 
 # Development Roadmap
+
+- Business Goal: Analyze and predict UK fruit & veg prices; identify seasonal trends and support decision-making.
+
+- Data Prep: Loaded and cleaned data from Kaggle; extracted features like season and date.
+
+- EDA & Statistics: Visualized trends (line plots, boxplots), used ANOVA to confirm seasonal price differences.
+
+- Feature Engineering: Created seasonal labels, binary price thresholds (e.g., above £1), and encoded categorical data.
+
+- Modeling:
+
+- Classification: Tried predicting High/Low prices (accuracy ~52%).
+
+- Regression: Predicted actual prices, then classified using thresholds (MAE ~0.22, F1 ~0.95).
+
+- Evaluation: Used confusion matrix, regression plots, and standard metrics (MAE, accuracy, F1).
+
+- Next Steps/Future Works: Add more features (like weather and imports) or test on more recent data(post 2022).
 
 
 # Main Data Analysis Libraries
@@ -137,13 +160,6 @@
 - Kaggle for the dataset https://www.kaggle.com/datasets/datota/fruit-and-vegatable-prices-in-uk-2017-2022
 - Chat GPT for helping me when i hit roadblocks in my project.
 - Google search for additional information pertaining to fruit and veg seasons, supply chain and export information.   
-
-
-# Content
-
-
-# Media
-
 
 # Acknowledgements (optional)
 
