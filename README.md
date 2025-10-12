@@ -3,7 +3,7 @@
 # Project Summary 
 
 - Fruit & Veg Prices in the UK (2017-2022)
-- The UK's Horticulture sector saw it's home-produced vegetables value grow from approx £1.5 Billion in 2017 to £1.8 Billion in 2022 and it's fruits produce from £920 Million in 2021 to £1,046 Billion in 2022. 
+- This project aims to analyze historical fruit and vegetable price data from the UK and develop predictive models to understand and forecast price trends. The ultimate goal is to explore how factors like seasonality affect prices and evaluate whether machine learning models can predict price direction or value accurately.
 
 # Dataset Content
 
@@ -35,7 +35,7 @@
 
 # Buisness Requirements
 
-- A fictional international business conglomerate has an interest in the fresh produce sector in the food industry business in the UK. The client has requested that a data analyst analyse the dataset of fruits and vegetable prices and determine:
+- The UK's Horticulture sector saw it's home-produced vegetables value grow from approx £1.5 Billion in 2017 to £1.8 Billion in 2022 and it's fruits produce from £920 Million in 2021 to £1,046 Billion in 2022. A fictional international business conglomerate has an interest in the fresh produce sector in the food industry business in the UK. The client has requested that a data analyst analyse the dataset of fruits and vegetable prices and determine:
 
 1. To identify the optimal season to procure and sell fresh produce.
 
@@ -70,14 +70,49 @@
 
 # Project Plan
 
+1. Data Collection - Laod dataset, convert to a DataFrame.
+
+2. Data cleaning - Clean data for my Hypotheses.
+
+3. EDA - Target specific items in the DataFrame for price comparisons based on seasonality and variety.
+
+4. Data Visualisation - Create line plots, bar plots and interactive plots for most occuring Fruit and Veg.
+
+5. Dashboard Development - Design an interactive dashboard that the user can look up any fruit and veg from the dataset and see results.
+
+6. Predictive modelling - Build machine learning models on price fluctuations.
+
+7. Evaluations - Summary on findings EDA and predictive models produced. 
+
 
 # The rationale to map the business requirements to the Data Visualisations
 
 
 # Analysis techniques used
 
+1. ETL and Exploratory Data Analysis (EDA)
+ - Check for missing, duplicates, NaN and null void values.
+ - Inspect trends and price distributions.
+ - Used line plots, bar plots, scatterplots and pie charts.
+ - Investigate the influence of seasonal factors on price behaviour.
+
+2. Statistical Testing
+ - Applied ANOVA to test for significant price differences across seasons and years.
+ - Concluded that seasonas has a strong influence on price variation for many of the fruits and veg.
+
+3. Machine Learning Models
+ - Classification: Attempted to classify prices as 'High' or 'Low' using seasonal features. Result - average/moderate performance (51.8% accuracy).
+ - Regression: Switched to predicting exact prices using XGBoost regressor. Result - low MAE (0.22).
+ - Threshold: Converted regression outputs into binary categories (above or below £1.00). Result - Significant improvement performance (95.4% accuracy, 0.951 F1 score).
+
+4. Model Evaluation:
+ - Metrics used - MAE, Accuracy, Precision, Recall and F1 score.
+ - Confusion matricies and regression plot was used for Visualisations. 
+
 
 # Ethical considerations
+
+- No ethical issues the dataset was sourced from Kaggle and is avaliable to the public and can be used for Educational or training purposes.  
 
 
 # Unfixed Bugs
@@ -88,8 +123,20 @@
 
 # Main Data Analysis Libraries
 
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Plotly
+- Scikit-learn
+- XGBoost
 
 # Credits
+
+- I would like to thank the people at Code Institute.
+- Kaggle for the dataset https://www.kaggle.com/datasets/datota/fruit-and-vegatable-prices-in-uk-2017-2022
+- Chat GPT for helping me when i hit roadblocks in my project.
+- Google search for additional information pertaining to fruit and veg seasons, supply chain and export information.   
 
 
 # Content
@@ -99,6 +146,8 @@
 
 
 # Acknowledgements (optional)
+
+- Aforementioned people, websites and AI tools mentioned in the Credits section.
 
 
 ## Deployment Reminders
